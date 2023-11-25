@@ -7,7 +7,7 @@ from rich import print as pretty_print
 
 from .character_data import CharacterData
 from .character_input import CharacterInput, characters_list
-from .processors import get_combat_path, get_rarity  # , get_stats, get_weapon_type, get_weapons_and_artifacts
+from .processors import get_combat_path, get_combat_type, get_rarity
 
 
 def build_characters_csv(make_server_call: bool = False):
@@ -59,9 +59,7 @@ def scrape_web(character_input: CharacterInput, make_server_call=False):
 
     get_rarity(soup, character_data)
     get_combat_path(soup, character_data)
-    # get_weapon_type(soup, character_data)
-    # get_stats(soup, character_data)
-    # get_weapons_and_artifacts(soup, character_data)
+    get_combat_type(soup, character_data)
 
     pretty_print(character_data)
     return character_data
