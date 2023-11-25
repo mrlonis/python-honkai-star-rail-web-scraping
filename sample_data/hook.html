@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="/logo192.png" rel="apple-touch-icon" />
+    <link href="/manifest.json" rel="manifest" />
+    <meta content="GENSHIN.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" property="og:image" />
+    <title>Honkai: Star Rail Hook Build</title>
+    <link href="/static/css/2.697d038f.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.94851fb2.chunk.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta content="Honkai: Star Rail Hook Build Guide" data-react-helmet="true" name="title" />
+    <meta
+      content="Discover the best builds and teams for Hook in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta content="Honkai: Star Rail Hook Build Guide" data-react-helmet="true" property="og:title" />
+    <meta
+      content="Discover the best builds and teams for Hook in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta content="Honkai: Star Rail Hook Build Guide" data-react-helmet="true" name="twitter:title" />
+    <meta
+      content="Discover the best builds and teams for Hook in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" name="twitter:image" />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://www.google-analytics.com" rel="preconnect" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App d-flex flex-column StarRail">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a class="brand active" href="/" aria-current="page"
+                ><img class="brand-icon" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="GENSHIN.GG Logo" /></a
+              ><a class="toolbar-nav-item" href="/star-rail/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/star-rail-game-icon.png"
+                  alt="Honkai: Star Rail"
+                />Honkai: Star Rail</a
+              >
+            </div>
+            <div class="toolbar-nav">
+              <a class="toolbar-nav-item" href="/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                  alt="Genshin Impact"
+                />Genshin Impact</a
+              >
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/">Characters</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/tier-list/">Tier List</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/farming/">Farming Guide</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cones/">Light Cones</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/relics/">Relics</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/planar-ornaments/">Ornaments</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/character-stats/">Character Stats</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a></li>
+              </ul>
+              <div class="mobile-games">
+                <a class="mobile-games-item" href="/"
+                  ><img
+                    class="mobile-game"
+                    src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                    alt="Tower of Fantasy"
+                  />Genshin Impact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a class="nav-link" href="/star-rail/">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/tier-list/">Tier List</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/farming/">Farming Guide</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/character-stats/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Stats<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/character-stats/">Character Stats</a
+                  ><a class="nav-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/light-cones/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/light-cones/">Light Cones</a
+                  ><a class="nav-link" href="/star-rail/relics/">Relics</a
+                  ><a class="nav-link" href="/star-rail/planar-ornaments">Ornaments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character-info">
+                <div class="character-info-intro">
+                  <img
+                    class="character-info-portrait rarity-4"
+                    src="https://rerollcdn.com/STARRAIL/Characters/Full/1109.png"
+                    alt="Hook"
+                  />
+                  <div class="character-info-data">
+                    <div class="character-info-header">
+                      <h1 class="character-info-name">Honkai: Star Rail Hook Build</h1>
+                      <img
+                        class="character-info-element"
+                        src="https://rerollcdn.com/STARRAIL/Elements/fire.png"
+                        alt="Fire"
+                      />
+                    </div>
+                    <div class="character-info-path">
+                      <img
+                        class="character-info-path-icon"
+                        src="https://rerollcdn.com/STARRAIL/Paths/the_destruction_sm.png"
+                        alt="The Destruction"
+                      />The Destruction
+                    </div>
+                    <div class="character-info-stats">
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/hp.png"
+                            alt="[object Object] HP"
+                          />HP
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 89.6552%"></span></div>
+                        <div class="character-info-stat-value">1340</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/atk.png"
+                            alt="[object Object] ATK"
+                          />ATK
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 50.3571%"></span></div>
+                        <div class="character-info-stat-value">617</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/def.png"
+                            alt="[object Object] DEF"
+                          />DEF
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 6.79012%"></span></div>
+                        <div class="character-info-stat-value">352</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/spd.png"
+                            alt="[object Object] Speed"
+                          />Speed
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 16%"></span></div>
+                        <div class="character-info-stat-value">94</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon small"
+                            src="https://rerollcdn.com/STARRAIL/Stats/taunt.png"
+                            alt="[object Object] Taunt"
+                          />Taunt
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 66.6667%"></span></div>
+                        <div class="character-info-stat-value">125</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-materials">
+                    <h2 class="character-info-materials-title">Hook Upgrade Materials</h2>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Ancient Part.png"
+                      />
+                      <div class="character-info-materials-name">Ancient Part</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Shattered Blade.png"
+                      />
+                      <div class="character-info-materials-name">Shattered Blade</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Endotherm Chitin.png"
+                      />
+                      <div class="character-info-materials-name">Endotherm Chitin</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Guardian's Lament.png"
+                      />
+                      <div class="character-info-materials-name">Guardian's Lament</div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Hook Best Relics</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firesmith_of_lava-forging.png"
+                              alt="Firesmith of Lava-Forging"
+                            />
+                            <div class="character-info-weapon-name">Firesmith of Lava-Forging</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/musketeer_of_wild_wheat.png"
+                              alt="Musketeer of Wild Wheat"
+                            />
+                            <div class="character-info-weapon-name">Musketeer of Wild Wheat</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firesmith_of_lava-forging.png"
+                              alt="Firesmith of Lava-Forging"
+                            />
+                            <div class="character-info-weapon-name">Firesmith of Lava-Forging</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">3</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firesmith_of_lava-forging.png"
+                              alt="Firesmith of Lava-Forging"
+                            />
+                            <div class="character-info-weapon-name">Firesmith of Lava-Forging</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Hook Best Ornaments</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firmament_frontline_glamoth.png"
+                              alt="Firmament Frontline: Glamoth"
+                            />
+                            <div class="character-info-weapon-name">Firmament Frontline: Glamoth</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/rutilant_arena.png"
+                              alt="Rutilant Arena"
+                            />
+                            <div class="character-info-weapon-name">Rutilant Arena</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Hook Best Light Cone</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/something_irreplaceable_sm.png"
+                              alt="Something Irreplaceable"
+                            />
+                            <div class="character-info-weapon-name">Something Irreplaceable</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/on_the_fall_of_an_aeon_sm.png"
+                              alt="On the Fall of an Aeon"
+                            />
+                            <div class="character-info-weapon-name">On the Fall of an Aeon</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/woof!_walk_time!_sm.png"
+                              alt="Woof! Walk Time!"
+                            />
+                            <div class="character-info-weapon-name">Woof! Walk Time!</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/the_moles_welcome_you_sm.png"
+                              alt="The Moles Welcome You"
+                            />
+                            <div class="character-info-weapon-name">The Moles Welcome You</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-3"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/collapsing_sky_sm.png"
+                              alt="Collapsing Sky"
+                            />
+                            <div class="character-info-weapon-name">Collapsing Sky</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Hook Best Stats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item"><b>Body:</b> CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item"><b>Feet:</b> ATK% / Speed</div>
+                        <div class="character-info-stats-item"><b>Planar Sphere:</b> Fire DMG</div>
+                        <div class="character-info-stats-item"><b>Link Rope:</b> Energy Regen Rate / ATK%</div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Hook Best Substats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item">CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item">ATK%</div>
+                        <div class="character-info-stats-item">Effect Hit Rate</div>
+                        <div class="character-info-stats-item">Break Effect</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb1"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu1"></div></div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Skills</a><a class="character-navigation-link">Eidolons</a
+                  ><a class="character-navigation-link">Traces</a>
+                </div>
+                <div class="character-info-skills" id="skills">
+                  <h2 class="character-info-category">Hook Skills</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Normal.png"
+                        alt="Hehe! Don't Get Burned!"
+                      />
+                      <h3 class="character-info-skill-title">Basic ATK</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Hehe! Don't Get Burned!</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Fire DMG equal to 50% of Hook's ATK to a single enemy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_BP.png"
+                        alt="Hey! Remember Hook?"
+                      />
+                      <h3 class="character-info-skill-title">Skill</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Hey! Remember Hook?</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Single Target Deals Fire DMG equal to 120% of Hook's ATK to a single enemy. In addition, there is a
+                        100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT
+                        equal to 25% of Hook's ATK at the beginning of each turn. Blast Deals Fire DMG equal to 140% of
+                        Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals
+                        Fire DMG equal to 40% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will
+                        take Fire DoT equal to 25% of Hook's ATK at the beginning of each turn.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Ultra_on.png"
+                        alt="Boom! Here Comes the Fire!"
+                      />
+                      <h3 class="character-info-skill-title">Ultimate</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Boom! Here Comes the Fire!</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Fire DMG equal to 240% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to
+                        be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Passive.png"
+                        alt="Ha! Oil to the Flames!"
+                      />
+                      <h3 class="character-info-skill-title">Talent</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Ha! Oil to the Flames!</h4>
+                      <h5 class="character-info-skill-type">Enhance</h5>
+                      <p class="character-info-skill-description">
+                        When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50% of Hook's ATK and
+                        regenerates 5 extra Energy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Maze.png"
+                        alt="Ack! Look at This Mess!"
+                      />
+                      <h3 class="character-info-skill-title">Technique</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Ack! Look at This Mess!</h4>
+                      <h5 class="character-info-skill-type"></h5>
+                      <p class="character-info-skill-description">
+                        Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a
+                        random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s).
+                        When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of
+                        each turn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb2"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu2"></div></div>
+                <div class="character-info-skills" id="eidolons">
+                  <h2 class="character-info-category">Hook Eidolon</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank1.png"
+                        alt="Early to Bed, Early to Rise"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 1</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Early to Bed, Early to Rise</h4>
+                      <p class="character-info-skill-description">Enhanced Skill deals 20% increased DMG.</p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank2.png"
+                        alt="Happy Tummy, Happy Body"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Happy Tummy, Happy Body</h4>
+                      <p class="character-info-skill-description">
+                        Extends the duration of Burn caused by Skill by 1 turn(s).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_BP.png"
+                        alt="Don't Be Picky, Nothing's Icky"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 3</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Don't Be Picky, Nothing's Icky</h4>
+                      <p class="character-info-skill-description">
+                        Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank4.png"
+                        alt="It's Okay to Not Know"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">It's Okay to Not Know</h4>
+                      <p class="character-info-skill-description">
+                        When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy,
+                        equivalent to that of Skill.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Ultra.png"
+                        alt="Let the Moles' Deeds Be Known"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 5</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Let the Moles' Deeds Be Known</h4>
+                      <p class="character-info-skill-description">
+                        Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank6.png"
+                        alt="Always Ready to Punch and Kick"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Always Ready to Punch and Kick</h4>
+                      <p class="character-info-skill-description">Hook deals 20% more DMG to enemies afflicted with Burn.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="character-info-skills" id="traces">
+                  <h2 class="character-info-category">Hook Traces</h2>
+                  <div class="character-info-traces">
+                    <div class="character-info-traces-title">Total Stats</div>
+                    <div class="character-info-trace">ATK +28%</div>
+                    <div class="character-info-trace">Max HP +18%</div>
+                    <div class="character-info-trace">CRIT DMG +12.5%</div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank1.png"
+                        alt="Innocence"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Innocence</h4>
+                      <p class="character-info-skill-description">
+                        Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Rank2.png"
+                        alt="Naivete"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Naivete</h4>
+                      <p class="character-info-skill-description">
+                        The chance to resist Crowd Control Debuffs increases by 35%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1109_Ultra.png"
+                        alt="Playing with Fire"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Playing with Fire</h4>
+                      <p class="character-info-skill-description">
+                        When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally
+                        regenerates 5 Energy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="/"
+                    ><img class="footer-logo" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="brand"
+                  /></a>
+                  <p class="footer-description">
+                    <b>GENSHIN.GG</b> is not affiliated with or endorsed by miHoYo. <b>GENSHIN.GG</b> is a Database and Tier
+                    List website for Genshin Impact and Honkai: Star Rail.
+                  </p>
+                  <p class="footer-copyright">© GENSHIN.GG 2023</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a class="footer-link" href="mailto:hello.genshin@gmail.com" target="_blank">Contact</a>
+                  </li>
+                  <li class="footer-link-item"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+                  <li class="footer-link-item"><a class="footer-link nn-cmp-show" href="#">Manage Cookies</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/honkaistarrail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Reddit</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.facebook.com/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, i, l = r[0], a = r[1], f = r[2], p = 0, s = []; p < l.length; p++)
+            (i = l[p]), Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), (o[i] = 0);
+          for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
+          for (c && c(r); s.length; ) s.shift()();
+          return u.push.apply(u, f || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var a = t[l];
+              0 !== o[a] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if ((i.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e))
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n),
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, 'a', r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = '/');
+        var l = (this['webpackJsonpgenshin-react'] = this['webpackJsonpgenshin-react'] || []),
+          a = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var f = 0; f < l.length; f++) r(l[f]);
+        var c = a;
+        t();
+      })([]);
+    </script>
+    <script src="/static/js/2.ab48461c.chunk.js"></script>
+    <script src="/static/js/main.a6259602.chunk.js"></script>
+  </body>
+</html>

@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="/logo192.png" rel="apple-touch-icon" />
+    <link href="/manifest.json" rel="manifest" />
+    <meta content="GENSHIN.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" property="og:image" />
+    <title>Honkai: Star Rail Arlan Build</title>
+    <link href="/static/css/2.697d038f.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.94851fb2.chunk.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta content="Honkai: Star Rail Arlan Build Guide" data-react-helmet="true" name="title" />
+    <meta
+      content="Discover the best builds and teams for Arlan in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta content="Honkai: Star Rail Arlan Build Guide" data-react-helmet="true" property="og:title" />
+    <meta
+      content="Discover the best builds and teams for Arlan in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta content="Honkai: Star Rail Arlan Build Guide" data-react-helmet="true" name="twitter:title" />
+    <meta
+      content="Discover the best builds and teams for Arlan in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" name="twitter:image" />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://www.google-analytics.com" rel="preconnect" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App d-flex flex-column StarRail">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a class="brand active" href="/" aria-current="page"
+                ><img class="brand-icon" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="GENSHIN.GG Logo" /></a
+              ><a class="toolbar-nav-item" href="/star-rail/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/star-rail-game-icon.png"
+                  alt="Honkai: Star Rail"
+                />Honkai: Star Rail</a
+              >
+            </div>
+            <div class="toolbar-nav">
+              <a class="toolbar-nav-item" href="/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                  alt="Genshin Impact"
+                />Genshin Impact</a
+              >
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/">Characters</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/tier-list/">Tier List</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/farming/">Farming Guide</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cones/">Light Cones</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/relics/">Relics</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/planar-ornaments/">Ornaments</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/character-stats/">Character Stats</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a></li>
+              </ul>
+              <div class="mobile-games">
+                <a class="mobile-games-item" href="/"
+                  ><img
+                    class="mobile-game"
+                    src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                    alt="Tower of Fantasy"
+                  />Genshin Impact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a class="nav-link" href="/star-rail/">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/tier-list/">Tier List</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/farming/">Farming Guide</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/character-stats/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Stats<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/character-stats/">Character Stats</a
+                  ><a class="nav-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/light-cones/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/light-cones/">Light Cones</a
+                  ><a class="nav-link" href="/star-rail/relics/">Relics</a
+                  ><a class="nav-link" href="/star-rail/planar-ornaments">Ornaments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character-info">
+                <div class="character-info-intro">
+                  <img
+                    class="character-info-portrait rarity-4"
+                    src="https://rerollcdn.com/STARRAIL/Characters/Full/1008.png"
+                    alt="Arlan"
+                  />
+                  <div class="character-info-data">
+                    <div class="character-info-header">
+                      <h1 class="character-info-name">Honkai: Star Rail Arlan Build</h1>
+                      <img
+                        class="character-info-element"
+                        src="https://rerollcdn.com/STARRAIL/Elements/lightning.png"
+                        alt="Lightning"
+                      />
+                    </div>
+                    <div class="character-info-path">
+                      <img
+                        class="character-info-path-icon"
+                        src="https://rerollcdn.com/STARRAIL/Paths/the_destruction_sm.png"
+                        alt="The Destruction"
+                      />The Destruction
+                    </div>
+                    <div class="character-info-stats">
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/hp.png"
+                            alt="[object Object] HP"
+                          />HP
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 64.0653%"></span></div>
+                        <div class="character-info-stat-value">1199</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/atk.png"
+                            alt="[object Object] ATK"
+                          />ATK
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 43.9286%"></span></div>
+                        <div class="character-info-stat-value">599</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/def.png"
+                            alt="[object Object] DEF"
+                          />DEF
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 0%"></span></div>
+                        <div class="character-info-stat-value">330</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/spd.png"
+                            alt="[object Object] Speed"
+                          />Speed
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 48%"></span></div>
+                        <div class="character-info-stat-value">102</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon small"
+                            src="https://rerollcdn.com/STARRAIL/Stats/taunt.png"
+                            alt="[object Object] Taunt"
+                          />Taunt
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 66.6667%"></span></div>
+                        <div class="character-info-stat-value">125</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-materials">
+                    <h2 class="character-info-materials-title">Arlan Upgrade Materials</h2>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Extinguished Core.png"
+                      />
+                      <div class="character-info-materials-name">Extinguished Core</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Shattered Blade.png"
+                      />
+                      <div class="character-info-materials-name">Shattered Blade</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Lightning Crown of the Past Shadow.png"
+                      />
+                      <div class="character-info-materials-name">Lightning Crown of the Past Shadow</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Destroyer's Final Road.png"
+                      />
+                      <div class="character-info-materials-name">Destroyer's Final Road</div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Arlan Best Relics</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/band_of_sizzling_thunder.png"
+                              alt="Band of Sizzling Thunder"
+                            />
+                            <div class="character-info-weapon-name">Band of Sizzling Thunder</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/band_of_sizzling_thunder.png"
+                              alt="Band of Sizzling Thunder"
+                            />
+                            <div class="character-info-weapon-name">Band of Sizzling Thunder</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/musketeer_of_wild_wheat.png"
+                              alt="Musketeer of Wild Wheat"
+                            />
+                            <div class="character-info-weapon-name">Musketeer of Wild Wheat</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Arlan Best Ornaments</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firmament_frontline_glamoth.png"
+                              alt="Firmament Frontline: Glamoth"
+                            />
+                            <div class="character-info-weapon-name">Firmament Frontline: Glamoth</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/rutilant_arena.png"
+                              alt="Rutilant Arena"
+                            />
+                            <div class="character-info-weapon-name">Rutilant Arena</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Arlan Best Light Cone</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/the_unreachable_side_sm.png"
+                              alt="The Unreachable Side"
+                            />
+                            <div class="character-info-weapon-name">The Unreachable Side</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/something_irreplaceable_sm.png"
+                              alt="Something Irreplaceable"
+                            />
+                            <div class="character-info-weapon-name">Something Irreplaceable</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/on_the_fall_of_an_aeon_sm.png"
+                              alt="On the Fall of an Aeon"
+                            />
+                            <div class="character-info-weapon-name">On the Fall of an Aeon</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/a_secret_vow_sm.png"
+                              alt="A Secret Vow"
+                            />
+                            <div class="character-info-weapon-name">A Secret Vow</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/under_the_blue_sky_sm.png"
+                              alt="Under the Blue Sky"
+                            />
+                            <div class="character-info-weapon-name">Under the Blue Sky</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Arlan Best Stats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item"><b>Body:</b> CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item"><b>Feet:</b> ATK% / Speed</div>
+                        <div class="character-info-stats-item"><b>Planar Sphere:</b> Lightning DMG</div>
+                        <div class="character-info-stats-item"><b>Link Rope:</b> Energy Regen Rate / ATK%</div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Arlan Best Substats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item">CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item">ATK%</div>
+                        <div class="character-info-stats-item">Speed</div>
+                        <div class="character-info-stats-item">Break Effect</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb1"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu1"></div></div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Skills</a><a class="character-navigation-link">Eidolons</a
+                  ><a class="character-navigation-link">Traces</a>
+                </div>
+                <div class="character-info-skills" id="skills">
+                  <h2 class="character-info-category">Arlan Skills</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Normal.png"
+                        alt="Lightning Rush"
+                      />
+                      <h3 class="character-info-skill-title">Basic ATK</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Lightning Rush</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Lightning DMG equal to 50% of Arlan's ATK to a single enemy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_BP.png"
+                        alt="Shackle Breaker"
+                      />
+                      <h3 class="character-info-skill-title">Skill</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Shackle Breaker</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120% of Arlan's ATK to
+                        a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his
+                        Skill.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Ultra_on.png"
+                        alt="Frenzied Punishment"
+                      />
+                      <h3 class="character-info-skill-title">Ultimate</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Frenzied Punishment</h4>
+                      <h5 class="character-info-skill-type">Blast</h5>
+                      <p class="character-info-skill-description">
+                        Deals Lightning DMG equal to 192% of Arlan's ATK to a single enemy and Lightning DMG equal to 96% of
+                        Arlan's ATK to enemies adjacent to it.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Passive.png"
+                        alt="Pain and Anger"
+                      />
+                      <h3 class="character-info-skill-title">Talent</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Pain and Anger</h4>
+                      <h5 class="character-info-skill-type">Enhance</h5>
+                      <p class="character-info-skill-description">
+                        Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36% more DMG.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Maze.png"
+                        alt="Swift Harvest"
+                      />
+                      <h3 class="character-info-skill-title">Technique</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Swift Harvest</h4>
+                      <h5 class="character-info-skill-type"></h5>
+                      <p class="character-info-skill-description">
+                        Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK
+                        to all enemies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb2"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu2"></div></div>
+                <div class="character-info-skills" id="eidolons">
+                  <h2 class="character-info-category">Arlan Eidolon</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank1.png"
+                        alt="To the Bitter End"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 1</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">To the Bitter End</h4>
+                      <p class="character-info-skill-description">
+                        When HP is lower than or equal to 50% of Max HP, increases Skill's DMG by 10%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank2.png"
+                        alt="Breaking Free"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Breaking Free</h4>
+                      <p class="character-info-skill-description">Using Skill or Ultimate removes 1 debuff from oneself.</p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_BP.png"
+                        alt="Power Through"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 3</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Power Through</h4>
+                      <p class="character-info-skill-description">
+                        Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank4.png"
+                        alt="Turn the Tables"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Turn the Tables</h4>
+                      <p class="character-info-skill-description">
+                        When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan
+                        immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is
+                        triggered once or after 2 turn(s) have elapsed.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Ultra.png"
+                        alt="Hammer and Tongs"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 5</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Hammer and Tongs</h4>
+                      <p class="character-info-skill-description">
+                        Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank6.png"
+                        alt="Self-Sacrifice"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Self-Sacrifice</h4>
+                      <p class="character-info-skill-description">
+                        When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the
+                        target enemy now applies to adjacent enemies as well.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="character-info-skills" id="traces">
+                  <h2 class="character-info-category">Arlan Traces</h2>
+                  <div class="character-info-traces">
+                    <div class="character-info-traces-title">Total Stats</div>
+                    <div class="character-info-trace">ATK +28%</div>
+                    <div class="character-info-trace">Effect RES +12%</div>
+                    <div class="character-info-trace">Max HP +10%</div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank1.png"
+                        alt="Revival"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Revival</h4>
+                      <p class="character-info-skill-description">
+                        If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal
+                        to 20% of Max HP.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Rank2.png"
+                        alt="Perseverance"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Perseverance</h4>
+                      <p class="character-info-skill-description">The chance to resist DoT Debuffs increases by 50%.</p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1008_Ultra.png"
+                        alt="Repel"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Repel</h4>
+                      <p class="character-info-skill-description">
+                        Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received
+                        except for DoT until after he is attacked.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="/"
+                    ><img class="footer-logo" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="brand"
+                  /></a>
+                  <p class="footer-description">
+                    <b>GENSHIN.GG</b> is not affiliated with or endorsed by miHoYo. <b>GENSHIN.GG</b> is a Database and Tier
+                    List website for Genshin Impact and Honkai: Star Rail.
+                  </p>
+                  <p class="footer-copyright">© GENSHIN.GG 2023</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a class="footer-link" href="mailto:hello.genshin@gmail.com" target="_blank">Contact</a>
+                  </li>
+                  <li class="footer-link-item"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+                  <li class="footer-link-item"><a class="footer-link nn-cmp-show" href="#">Manage Cookies</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/honkaistarrail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Reddit</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.facebook.com/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, i, l = r[0], a = r[1], f = r[2], p = 0, s = []; p < l.length; p++)
+            (i = l[p]), Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), (o[i] = 0);
+          for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
+          for (c && c(r); s.length; ) s.shift()();
+          return u.push.apply(u, f || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var a = t[l];
+              0 !== o[a] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if ((i.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e))
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n),
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, 'a', r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = '/');
+        var l = (this['webpackJsonpgenshin-react'] = this['webpackJsonpgenshin-react'] || []),
+          a = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var f = 0; f < l.length; f++) r(l[f]);
+        var c = a;
+        t();
+      })([]);
+    </script>
+    <script src="/static/js/2.ab48461c.chunk.js"></script>
+    <script src="/static/js/main.a6259602.chunk.js"></script>
+  </body>
+</html>

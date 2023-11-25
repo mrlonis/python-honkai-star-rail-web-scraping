@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="/logo192.png" rel="apple-touch-icon" />
+    <link href="/manifest.json" rel="manifest" />
+    <meta content="GENSHIN.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" property="og:image" />
+    <title>Honkai: Star Rail Bailu Build</title>
+    <link href="/static/css/2.697d038f.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.94851fb2.chunk.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta content="Honkai: Star Rail Bailu Build Guide" data-react-helmet="true" name="title" />
+    <meta
+      content="Discover the best builds and teams for Bailu in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta content="Honkai: Star Rail Bailu Build Guide" data-react-helmet="true" property="og:title" />
+    <meta
+      content="Discover the best builds and teams for Bailu in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta content="Honkai: Star Rail Bailu Build Guide" data-react-helmet="true" name="twitter:title" />
+    <meta
+      content="Discover the best builds and teams for Bailu in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" name="twitter:image" />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://www.google-analytics.com" rel="preconnect" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App d-flex flex-column StarRail">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a class="brand active" href="/" aria-current="page"
+                ><img class="brand-icon" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="GENSHIN.GG Logo" /></a
+              ><a class="toolbar-nav-item" href="/star-rail/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/star-rail-game-icon.png"
+                  alt="Honkai: Star Rail"
+                />Honkai: Star Rail</a
+              >
+            </div>
+            <div class="toolbar-nav">
+              <a class="toolbar-nav-item" href="/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                  alt="Genshin Impact"
+                />Genshin Impact</a
+              >
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/">Characters</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/tier-list/">Tier List</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/farming/">Farming Guide</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cones/">Light Cones</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/relics/">Relics</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/planar-ornaments/">Ornaments</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/character-stats/">Character Stats</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a></li>
+              </ul>
+              <div class="mobile-games">
+                <a class="mobile-games-item" href="/"
+                  ><img
+                    class="mobile-game"
+                    src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                    alt="Tower of Fantasy"
+                  />Genshin Impact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a class="nav-link" href="/star-rail/">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/tier-list/">Tier List</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/farming/">Farming Guide</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/character-stats/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Stats<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/character-stats/">Character Stats</a
+                  ><a class="nav-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/light-cones/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/light-cones/">Light Cones</a
+                  ><a class="nav-link" href="/star-rail/relics/">Relics</a
+                  ><a class="nav-link" href="/star-rail/planar-ornaments">Ornaments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character-info">
+                <div class="character-info-intro">
+                  <img
+                    class="character-info-portrait rarity-5"
+                    src="https://rerollcdn.com/STARRAIL/Characters/Full/1211.png"
+                    alt="Bailu"
+                  />
+                  <div class="character-info-data">
+                    <div class="character-info-header">
+                      <h1 class="character-info-name">Honkai: Star Rail Bailu Build</h1>
+                      <img
+                        class="character-info-element"
+                        src="https://rerollcdn.com/STARRAIL/Elements/lightning.png"
+                        alt="Lightning"
+                      />
+                    </div>
+                    <div class="character-info-path">
+                      <img
+                        class="character-info-path-icon"
+                        src="https://rerollcdn.com/STARRAIL/Paths/the_abundance_sm.png"
+                        alt="The Abundance"
+                      />The Abundance
+                    </div>
+                    <div class="character-info-stats">
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/hp.png"
+                            alt="[object Object] HP"
+                          />HP
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 85.8439%"></span></div>
+                        <div class="character-info-stat-value">1319</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/atk.png"
+                            alt="[object Object] ATK"
+                          />ATK
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 30.7143%"></span></div>
+                        <div class="character-info-stat-value">562</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/def.png"
+                            alt="[object Object] DEF"
+                          />DEF
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 47.8395%"></span></div>
+                        <div class="character-info-stat-value">485</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/spd.png"
+                            alt="[object Object] Speed"
+                          />Speed
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 32%"></span></div>
+                        <div class="character-info-stat-value">98</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon small"
+                            src="https://rerollcdn.com/STARRAIL/Stats/taunt.png"
+                            alt="[object Object] Taunt"
+                          />Taunt
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 33.3333%"></span></div>
+                        <div class="character-info-stat-value">100</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-materials">
+                    <h2 class="character-info-materials-title">Bailu Upgrade Materials</h2>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Extinguished Core.png"
+                      />
+                      <div class="character-info-materials-name">Extinguished Core</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Seed of Abundance.png"
+                      />
+                      <div class="character-info-materials-name">Seed of Abundance</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Lightning Crown of the Past Shadow.png"
+                      />
+                      <div class="character-info-materials-name">Lightning Crown of the Past Shadow</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Guardian's Lament.png"
+                      />
+                      <div class="character-info-materials-name">Guardian's Lament</div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Bailu Best Relics</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/messenger_traversing_hackerspace.png"
+                              alt="Messenger Traversing Hackerspace"
+                            />
+                            <div class="character-info-weapon-name">Messenger Traversing Hackerspace</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/messenger_traversing_hackerspace.png"
+                              alt="Messenger Traversing Hackerspace"
+                            />
+                            <div class="character-info-weapon-name">Messenger Traversing Hackerspace</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/passerby_of_wandering_cloud.png"
+                              alt="Passerby of Wandering Cloud"
+                            />
+                            <div class="character-info-weapon-name">Passerby of Wandering Cloud</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">3</div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/longevous_disciple.png"
+                              alt="Longevous Disciple"
+                            />
+                            <div class="character-info-weapon-name">Longevous Disciple</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/messenger_traversing_hackerspace.png"
+                              alt="Messenger Traversing Hackerspace"
+                            />
+                            <div class="character-info-weapon-name">Messenger Traversing Hackerspace</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Bailu Best Ornaments</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/fleet_of_the_ageless.png"
+                              alt="Fleet of the Ageless"
+                            />
+                            <div class="character-info-weapon-name">Fleet of the Ageless</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/broken_keel.png"
+                              alt="Broken Keel"
+                            />
+                            <div class="character-info-weapon-name">Broken Keel</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Bailu Best Light Cone</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/time_waits_for_no_one_sm.png"
+                              alt="Time Waits for No One"
+                            />
+                            <div class="character-info-weapon-name">Time Waits for No One</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/post-op_conversation_sm.png"
+                              alt="Post-Op Conversation"
+                            />
+                            <div class="character-info-weapon-name">Post-Op Conversation</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/shared_feeling_sm.png"
+                              alt="Shared Feeling"
+                            />
+                            <div class="character-info-weapon-name">Shared Feeling</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/quid_pro_quo_sm.png"
+                              alt="Quid Pro Quo"
+                            />
+                            <div class="character-info-weapon-name">Quid Pro Quo</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-3"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/multiplication_sm.png"
+                              alt="Multiplication"
+                            />
+                            <div class="character-info-weapon-name">Multiplication</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Bailu Best Stats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item"><b>Body:</b> Outgoing Healing Boost</div>
+                        <div class="character-info-stats-item"><b>Feet:</b> HP% / Speed</div>
+                        <div class="character-info-stats-item"><b>Planar Sphere:</b> HP%</div>
+                        <div class="character-info-stats-item"><b>Link Rope:</b> Energy Regen Rate / HP%</div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Bailu Best Substats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item">HP%</div>
+                        <div class="character-info-stats-item">HP</div>
+                        <div class="character-info-stats-item">Speed</div>
+                        <div class="character-info-stats-item">Effect Res</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb1"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu1"></div></div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Skills</a><a class="character-navigation-link">Eidolons</a
+                  ><a class="character-navigation-link">Traces</a>
+                </div>
+                <div class="character-info-skills" id="skills">
+                  <h2 class="character-info-category">Bailu Skills</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Normal.png"
+                        alt="Diagnostic Kick"
+                      />
+                      <h3 class="character-info-skill-title">Basic ATK</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Diagnostic Kick</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Lightning DMG equal to 50% of Bailu's ATK to a single enemy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_BP.png"
+                        alt="Singing Among Clouds"
+                      />
+                      <h3 class="character-info-skill-title">Skill</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Singing Among Clouds</h4>
+                      <h5 class="character-info-skill-type">Restore</h5>
+                      <p class="character-info-skill-description">
+                        Heals a single ally for 7.8% of Bailu's Max HP plus 78. Bailu then heals random allies 2 time(s).
+                        After each healing, HP restored from the next healing is reduced by 15%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Ultra_on.png"
+                        alt="Felicitous Thunderleap"
+                      />
+                      <h3 class="character-info-skill-title">Ultimate</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Felicitous Thunderleap</h4>
+                      <h5 class="character-info-skill-type">Restore</h5>
+                      <p class="character-info-skill-description">
+                        Heals all allies for 9% of Bailu's Max HP plus 90. Bailu applies Invigoration to allies that are not
+                        already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration
+                        by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Passive.png"
+                        alt="Gourdful Elixir"
+                      />
+                      <h3 class="character-info-skill-title">Talent</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Gourdful Elixir</h4>
+                      <h5 class="character-info-skill-type">Restore</h5>
+                      <p class="character-info-skill-description">
+                        After an ally with Invigoration is hit, restores the ally's HP for 3.6% of Bailu's Max HP plus 36.
+                        This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked
+                        down. Bailu immediately heals the ally for 12% of Bailu's Max HP plus 120 HP. This effect can be
+                        triggered 1 time per battle.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Maze.png"
+                        alt="Saunter in the Rain"
+                      />
+                      <h3 class="character-info-skill-title">Technique</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Saunter in the Rain</h4>
+                      <h5 class="character-info-skill-type">Enhance</h5>
+                      <p class="character-info-skill-description">
+                        After using Technique, at the start of the next battle, all allies are granted Invigoration for 2
+                        turn(s).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb2"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu2"></div></div>
+                <div class="character-info-skills" id="eidolons">
+                  <h2 class="character-info-category">Bailu Eidolon</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank1.png"
+                        alt="Ambrosial Aqua"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 1</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Ambrosial Aqua</h4>
+                      <p class="character-info-skill-description">
+                        If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra
+                        Energy for this target.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank2.png"
+                        alt="Sylphic Slumber"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Sylphic Slumber</h4>
+                      <p class="character-info-skill-description">
+                        After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_BP.png"
+                        alt="Omniscient Opulence"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 3</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Omniscient Opulence</h4>
+                      <p class="character-info-skill-description">
+                        Skill Lv. +2, up to a maximum of Lv. 15. Talent ATK Lv. +2, up to a maximum of Lv. 15.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank4.png"
+                        alt="Evil Excision"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Evil Excision</h4>
+                      <p class="character-info-skill-description">
+                        Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect
+                        can stack up to 3 time(s).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Ultra.png"
+                        alt="Waning Worries"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 5</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Waning Worries</h4>
+                      <p class="character-info-skill-description">
+                        Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank6.png"
+                        alt="Drooling Drop of Draconic Divinity"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Drooling Drop of Draconic Divinity</h4>
+                      <p class="character-info-skill-description">
+                        Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="character-info-skills" id="traces">
+                  <h2 class="character-info-category">Bailu Traces</h2>
+                  <div class="character-info-traces">
+                    <div class="character-info-traces-title">Total Stats</div>
+                    <div class="character-info-trace">Max HP +28%</div>
+                    <div class="character-info-trace">DEF +22.5%</div>
+                    <div class="character-info-trace">Effect RES +6.7%</div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank1.png"
+                        alt="Qihuang Analects"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Qihuang Analects</h4>
+                      <p class="character-info-skill-description">
+                        When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2
+                        turns.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Rank2.png"
+                        alt="Vidyadhara Geo-Veins"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Vidyadhara Geo-Veins</h4>
+                      <p class="character-info-skill-description">Invigoration can trigger 1 more time(s).</p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1211_Ultra.png"
+                        alt="Aquatic Benediction"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Aquatic Benediction</h4>
+                      <p class="character-info-skill-description">Characters with Invigoration receive 10% less DMG.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="/"
+                    ><img class="footer-logo" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="brand"
+                  /></a>
+                  <p class="footer-description">
+                    <b>GENSHIN.GG</b> is not affiliated with or endorsed by miHoYo. <b>GENSHIN.GG</b> is a Database and Tier
+                    List website for Genshin Impact and Honkai: Star Rail.
+                  </p>
+                  <p class="footer-copyright">© GENSHIN.GG 2023</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a class="footer-link" href="mailto:hello.genshin@gmail.com" target="_blank">Contact</a>
+                  </li>
+                  <li class="footer-link-item"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+                  <li class="footer-link-item"><a class="footer-link nn-cmp-show" href="#">Manage Cookies</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/honkaistarrail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Reddit</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.facebook.com/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, i, l = r[0], a = r[1], f = r[2], p = 0, s = []; p < l.length; p++)
+            (i = l[p]), Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), (o[i] = 0);
+          for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
+          for (c && c(r); s.length; ) s.shift()();
+          return u.push.apply(u, f || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var a = t[l];
+              0 !== o[a] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if ((i.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e))
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n),
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, 'a', r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = '/');
+        var l = (this['webpackJsonpgenshin-react'] = this['webpackJsonpgenshin-react'] || []),
+          a = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var f = 0; f < l.length; f++) r(l[f]);
+        var c = a;
+        t();
+      })([]);
+    </script>
+    <script src="/static/js/2.ab48461c.chunk.js"></script>
+    <script src="/static/js/main.a6259602.chunk.js"></script>
+  </body>
+</html>

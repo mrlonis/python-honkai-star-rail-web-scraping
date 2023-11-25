@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="/logo192.png" rel="apple-touch-icon" />
+    <link href="/manifest.json" rel="manifest" />
+    <meta content="GENSHIN.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" property="og:image" />
+    <title>Honkai: Star Rail Trailblazer (Physical) Build</title>
+    <link href="/static/css/2.697d038f.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.94851fb2.chunk.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta content="Honkai: Star Rail Trailblazer (Physical) Build Guide" data-react-helmet="true" name="title" />
+    <meta
+      content="Discover the best builds and teams for Trailblazer (Physical) in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta content="Honkai: Star Rail Trailblazer (Physical) Build Guide" data-react-helmet="true" property="og:title" />
+    <meta
+      content="Discover the best builds and teams for Trailblazer (Physical) in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta content="Honkai: Star Rail Trailblazer (Physical) Build Guide" data-react-helmet="true" name="twitter:title" />
+    <meta
+      content="Discover the best builds and teams for Trailblazer (Physical) in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" name="twitter:image" />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://www.google-analytics.com" rel="preconnect" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App d-flex flex-column StarRail">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a class="brand active" href="/" aria-current="page"
+                ><img class="brand-icon" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="GENSHIN.GG Logo" /></a
+              ><a class="toolbar-nav-item" href="/star-rail/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/star-rail-game-icon.png"
+                  alt="Honkai: Star Rail"
+                />Honkai: Star Rail</a
+              >
+            </div>
+            <div class="toolbar-nav">
+              <a class="toolbar-nav-item" href="/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                  alt="Genshin Impact"
+                />Genshin Impact</a
+              >
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/">Characters</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/tier-list/">Tier List</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/farming/">Farming Guide</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cones/">Light Cones</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/relics/">Relics</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/planar-ornaments/">Ornaments</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/character-stats/">Character Stats</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a></li>
+              </ul>
+              <div class="mobile-games">
+                <a class="mobile-games-item" href="/"
+                  ><img
+                    class="mobile-game"
+                    src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                    alt="Tower of Fantasy"
+                  />Genshin Impact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a class="nav-link" href="/star-rail/">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/tier-list/">Tier List</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/farming/">Farming Guide</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/character-stats/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Stats<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/character-stats/">Character Stats</a
+                  ><a class="nav-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/light-cones/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/light-cones/">Light Cones</a
+                  ><a class="nav-link" href="/star-rail/relics/">Relics</a
+                  ><a class="nav-link" href="/star-rail/planar-ornaments">Ornaments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character-info">
+                <div class="character-info-intro">
+                  <img
+                    class="character-info-portrait rarity-5"
+                    src="https://rerollcdn.com/STARRAIL/Characters/Full/8001.png"
+                    alt="Trailblazer (Physical)"
+                  />
+                  <div class="character-info-data">
+                    <div class="character-info-header">
+                      <h1 class="character-info-name">Honkai: Star Rail Trailblazer (Physical) Build</h1>
+                      <img
+                        class="character-info-element"
+                        src="https://rerollcdn.com/STARRAIL/Elements/physical.png"
+                        alt="Physical"
+                      />
+                    </div>
+                    <div class="character-info-path">
+                      <img
+                        class="character-info-path-icon"
+                        src="https://rerollcdn.com/STARRAIL/Paths/the_destruction_sm.png"
+                        alt="The Destruction"
+                      />The Destruction
+                    </div>
+                    <div class="character-info-stats">
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/hp.png"
+                            alt="[object Object] HP"
+                          />HP
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 64.7913%"></span></div>
+                        <div class="character-info-stat-value">1203</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/atk.png"
+                            alt="[object Object] ATK"
+                          />ATK
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 51.4286%"></span></div>
+                        <div class="character-info-stat-value">620</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/def.png"
+                            alt="[object Object] DEF"
+                          />DEF
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 40.1235%"></span></div>
+                        <div class="character-info-stat-value">460</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/spd.png"
+                            alt="[object Object] Speed"
+                          />Speed
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 40%"></span></div>
+                        <div class="character-info-stat-value">100</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon small"
+                            src="https://rerollcdn.com/STARRAIL/Stats/taunt.png"
+                            alt="[object Object] Taunt"
+                          />Taunt
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 66.6667%"></span></div>
+                        <div class="character-info-stat-value">125</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-materials">
+                    <h2 class="character-info-materials-title">Trailblazer (Physical) Upgrade Materials</h2>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Thief's Instinct.png"
+                      />
+                      <div class="character-info-materials-name">Thief's Instinct</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Shattered Blade.png"
+                      />
+                      <div class="character-info-materials-name">Shattered Blade</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Enigmatic Ectostella.png"
+                      />
+                      <div class="character-info-materials-name">Enigmatic Ectostella</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Destroyer's Final Road.png"
+                      />
+                      <div class="character-info-materials-name">Destroyer's Final Road</div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Trailblazer (Physical) Best Relics</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/champion_of_streetwise_boxing.png"
+                              alt="Champion of Streetwise Boxing"
+                            />
+                            <div class="character-info-weapon-name">Champion of Streetwise Boxing</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/champion_of_streetwise_boxing.png"
+                              alt="Champion of Streetwise Boxing"
+                            />
+                            <div class="character-info-weapon-name">Champion of Streetwise Boxing</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/musketeer_of_wild_wheat.png"
+                              alt="Musketeer of Wild Wheat"
+                            />
+                            <div class="character-info-weapon-name">Musketeer of Wild Wheat</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">3</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/champion_of_streetwise_boxing.png"
+                              alt="Champion of Streetwise Boxing"
+                            />
+                            <div class="character-info-weapon-name">Champion of Streetwise Boxing</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Trailblazer (Physical) Best Ornaments</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firmament_frontline_glamoth.png"
+                              alt="Firmament Frontline: Glamoth"
+                            />
+                            <div class="character-info-weapon-name">Firmament Frontline: Glamoth</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/rutilant_arena.png"
+                              alt="Rutilant Arena"
+                            />
+                            <div class="character-info-weapon-name">Rutilant Arena</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Trailblazer (Physical) Best Light Cone</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/something_irreplaceable_sm.png"
+                              alt="Something Irreplaceable"
+                            />
+                            <div class="character-info-weapon-name">Something Irreplaceable</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/on_the_fall_of_an_aeon_sm.png"
+                              alt="On the Fall of an Aeon"
+                            />
+                            <div class="character-info-weapon-name">On the Fall of an Aeon</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/the_moles_welcome_you_sm.png"
+                              alt="The Moles Welcome You"
+                            />
+                            <div class="character-info-weapon-name">The Moles Welcome You</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/under_the_blue_sky_sm.png"
+                              alt="Under the Blue Sky"
+                            />
+                            <div class="character-info-weapon-name">Under the Blue Sky</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-3"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/collapsing_sky_sm.png"
+                              alt="Collapsing Sky"
+                            />
+                            <div class="character-info-weapon-name">Collapsing Sky</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Trailblazer (Physical) Best Stats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item"><b>Body:</b> CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item"><b>Feet:</b> ATK% / Speed</div>
+                        <div class="character-info-stats-item"><b>Planar Sphere:</b> Physical DMG</div>
+                        <div class="character-info-stats-item"><b>Link Rope:</b> ATK% / Break Effect</div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Trailblazer (Physical) Best Substats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item">CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item">ATK%</div>
+                        <div class="character-info-stats-item">Break Effect</div>
+                        <div class="character-info-stats-item">Speed</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb1"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu1"></div></div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Skills</a><a class="character-navigation-link">Eidolons</a
+                  ><a class="character-navigation-link">Traces</a>
+                </div>
+                <div class="character-info-skills" id="skills">
+                  <h2 class="character-info-category">Trailblazer (Physical) Skills</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Normal.png"
+                        alt="Farewell Hit"
+                      />
+                      <h3 class="character-info-skill-title">Basic ATK</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Farewell Hit</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Physical DMG equal to 50% of the Trailblazer's ATK to a single enemy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_BP.png"
+                        alt="RIP Home Run"
+                      />
+                      <h3 class="character-info-skill-title">Skill</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">RIP Home Run</h4>
+                      <h5 class="character-info-skill-type">Blast</h5>
+                      <p class="character-info-skill-description">
+                        Deals Physical DMG equal to 62% of the Trailblazer's ATK to a single enemy and any adjacent enemies.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Ultra_on.png"
+                        alt="Stardust Ace"
+                      />
+                      <h3 class="character-info-skill-title">Ultimate</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Stardust Ace</h4>
+                      <h5 class="character-info-skill-type">Enhance</h5>
+                      <p class="character-info-skill-description">
+                        Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG
+                        equal to 300% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG
+                        equal to 180% of the Trailblazer's ATK to a single enemy and Physical DMG equal to 108% of the
+                        Trailblazer's ATK to adjacent enemies.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Passive.png"
+                        alt="Perfect Pickoff"
+                      />
+                      <h3 class="character-info-skill-title">Talent</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Perfect Pickoff</h4>
+                      <h5 class="character-info-skill-type">Enhance</h5>
+                      <p class="character-info-skill-description">
+                        Each time this character inflicts Weakness Break on an enemy, ATK increases by 10%. This effect
+                        stacks up to 2 time(s).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Maze.png"
+                        alt="Immortal Third Strike"
+                      />
+                      <h3 class="character-info-skill-title">Technique</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Immortal Third Strike</h4>
+                      <h5 class="character-info-skill-type">Restore</h5>
+                      <p class="character-info-skill-description">
+                        Immediately heals all allies for 15% of their respective Max HP after using this Technique.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb2"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu2"></div></div>
+                <div class="character-info-skills" id="eidolons">
+                  <h2 class="character-info-category">Trailblazer (Physical) Eidolon</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank1.png"
+                        alt="A Falling Star"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 1</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">A Falling Star</h4>
+                      <p class="character-info-skill-description">
+                        When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra
+                        Energy. This effect can only be triggered once per attack.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank2.png"
+                        alt="An Unwilling Host"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">An Unwilling Host</h4>
+                      <p class="character-info-skill-description">
+                        Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the
+                        Trailblazer's ATK.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_BP.png"
+                        alt="A Leading Whisper"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 3</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">A Leading Whisper</h4>
+                      <p class="character-info-skill-description">
+                        Skill Lv. +2, up to a maximum of Lv. 15. Talent ATK Lv. +2, up to a maximum of Lv. 15.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank4.png"
+                        alt="A Destructing Glance"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">A Destructing Glance</h4>
+                      <p class="character-info-skill-description">
+                        When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Ultra.png"
+                        alt="A Surviving Hope"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 5</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">A Surviving Hope</h4>
+                      <p class="character-info-skill-description">
+                        Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank6.png"
+                        alt="A Trailblazing Will"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">A Trailblazing Will</h4>
+                      <p class="character-info-skill-description">
+                        The Trailblazer's Talent is also triggered when they defeat an enemy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="character-info-skills" id="traces">
+                  <h2 class="character-info-category">Trailblazer (Physical) Traces</h2>
+                  <div class="character-info-traces">
+                    <div class="character-info-traces-title">Total Stats</div>
+                    <div class="character-info-trace">ATK +28%</div>
+                    <div class="character-info-trace">Max HP +18%</div>
+                    <div class="character-info-trace">DEF +12.5%</div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank1.png"
+                        alt="Ready for Battle"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Ready for Battle</h4>
+                      <p class="character-info-skill-description">
+                        At the start of the battle, immediately regenerates 15 Energy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_Rank2.png"
+                        alt="Perseverance"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Perseverance</h4>
+                      <p class="character-info-skill-description">
+                        Each Talent stack increases the Trailblazer's DEF by 10%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_8001_BP.png"
+                        alt="Fighting Will"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Fighting Will</h4>
+                      <p class="character-info-skill-description">
+                        When using Skill or Ultimate "Blowout: RIP Home Run", DMG dealt to the target enemy is increased by
+                        25%.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="/"
+                    ><img class="footer-logo" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="brand"
+                  /></a>
+                  <p class="footer-description">
+                    <b>GENSHIN.GG</b> is not affiliated with or endorsed by miHoYo. <b>GENSHIN.GG</b> is a Database and Tier
+                    List website for Genshin Impact and Honkai: Star Rail.
+                  </p>
+                  <p class="footer-copyright">© GENSHIN.GG 2023</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a class="footer-link" href="mailto:hello.genshin@gmail.com" target="_blank">Contact</a>
+                  </li>
+                  <li class="footer-link-item"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+                  <li class="footer-link-item"><a class="footer-link nn-cmp-show" href="#">Manage Cookies</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/honkaistarrail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Reddit</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.facebook.com/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, i, l = r[0], a = r[1], f = r[2], p = 0, s = []; p < l.length; p++)
+            (i = l[p]), Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), (o[i] = 0);
+          for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
+          for (c && c(r); s.length; ) s.shift()();
+          return u.push.apply(u, f || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var a = t[l];
+              0 !== o[a] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if ((i.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e))
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n),
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, 'a', r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = '/');
+        var l = (this['webpackJsonpgenshin-react'] = this['webpackJsonpgenshin-react'] || []),
+          a = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var f = 0; f < l.length; f++) r(l[f]);
+        var c = a;
+        t();
+      })([]);
+    </script>
+    <script src="/static/js/2.ab48461c.chunk.js"></script>
+    <script src="/static/js/main.a6259602.chunk.js"></script>
+  </body>
+</html>

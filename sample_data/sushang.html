@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#000000" name="theme-color" />
+    <link href="/logo192.png" rel="apple-touch-icon" />
+    <link href="/manifest.json" rel="manifest" />
+    <meta content="GENSHIN.GG" data-react-helmet="true" property="og:site_name" />
+    <meta content="website" data-react-helmet="true" property="og:type" />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" property="og:image" />
+    <title>Honkai: Star Rail Sushang Build</title>
+    <link href="/static/css/2.697d038f.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.94851fb2.chunk.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <meta content="Honkai: Star Rail Sushang Build Guide" data-react-helmet="true" name="title" />
+    <meta
+      content="Discover the best builds and teams for Sushang in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="description"
+    />
+    <meta content="Honkai: Star Rail Sushang Build Guide" data-react-helmet="true" property="og:title" />
+    <meta
+      content="Discover the best builds and teams for Sushang in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      property="og:description"
+    />
+    <meta content="summary" data-react-helmet="true" name="twitter:card" />
+    <meta content="Honkai: Star Rail Sushang Build Guide" data-react-helmet="true" name="twitter:title" />
+    <meta
+      content="Discover the best builds and teams for Sushang in Honkai: Star Rail. Also included are their skills, upgrade costs, and more."
+      data-react-helmet="true"
+      name="twitter:description"
+    />
+    <meta content="https://rerollcdn.com/GENSHIN/UI/meta-image.png" data-react-helmet="true" name="twitter:image" />
+    <link href="https://www.google-analytics.com" rel="preconnect" />
+    <link href="https://rerollcdn.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="App d-flex flex-column StarRail">
+        <nav class="header">
+          <div class="toolbar">
+            <div class="toolbar-active">
+              <a class="brand active" href="/" aria-current="page"
+                ><img class="brand-icon" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="GENSHIN.GG Logo" /></a
+              ><a class="toolbar-nav-item" href="/star-rail/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/star-rail-game-icon.png"
+                  alt="Honkai: Star Rail"
+                />Honkai: Star Rail</a
+              >
+            </div>
+            <div class="toolbar-nav">
+              <a class="toolbar-nav-item" href="/"
+                ><img
+                  class="toolbar-game"
+                  src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                  alt="Genshin Impact"
+                />Genshin Impact</a
+              >
+            </div>
+            <div class="hamburger">
+              <div class="hamburger-box"><div class="hamburger-inner"></div></div>
+            </div>
+            <div class="mobile-menu">
+              <ul class="mobile-links">
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/">Characters</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/tier-list/">Tier List</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/farming/">Farming Guide</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cones/">Light Cones</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/relics/">Relics</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/planar-ornaments/">Ornaments</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/character-stats/">Character Stats</a></li>
+                <li class="mobile-item"><a class="mobile-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a></li>
+              </ul>
+              <div class="mobile-games">
+                <a class="mobile-games-item" href="/"
+                  ><img
+                    class="mobile-game"
+                    src="https://rerollcdn.com/GENSHIN/GameIcons/genshin-game-icon.png"
+                    alt="Tower of Fantasy"
+                  />Genshin Impact</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a class="nav-link" href="/star-rail/">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/tier-list/">Tier List</a></li>
+              <li class="nav-item"><a class="nav-link" href="/star-rail/farming/">Farming Guide</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/character-stats/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Stats<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/character-stats/">Character Stats</a
+                  ><a class="nav-link" href="/star-rail/light-cone-stats/">Light Cone Stats</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/star-rail/light-cones/"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  data-toggle="dropdown"
+                  id="navbarDropdown"
+                  role="button"
+                  >Database<i class="arrow down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="/star-rail/light-cones/">Light Cones</a
+                  ><a class="nav-link" href="/star-rail/relics/">Relics</a
+                  ><a class="nav-link" href="/star-rail/planar-ornaments">Ornaments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="container">
+          <div id="nn_skinr"></div>
+          <div id="nn_skinl"></div>
+          <div class="row">
+            <main class="content">
+              <div class="character-info">
+                <div class="character-info-intro">
+                  <img
+                    class="character-info-portrait rarity-4"
+                    src="https://rerollcdn.com/STARRAIL/Characters/Full/1206.png"
+                    alt="Sushang"
+                  />
+                  <div class="character-info-data">
+                    <div class="character-info-header">
+                      <h1 class="character-info-name">Honkai: Star Rail Sushang Build</h1>
+                      <img
+                        class="character-info-element"
+                        src="https://rerollcdn.com/STARRAIL/Elements/physical.png"
+                        alt="Physical"
+                      />
+                    </div>
+                    <div class="character-info-path">
+                      <img
+                        class="character-info-path-icon"
+                        src="https://rerollcdn.com/STARRAIL/Paths/the_hunt_sm.png"
+                        alt="The Hunt"
+                      />The Hunt
+                    </div>
+                    <div class="character-info-stats">
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/hp.png"
+                            alt="[object Object] HP"
+                          />HP
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 12.8857%"></span></div>
+                        <div class="character-info-stat-value">917</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/atk.png"
+                            alt="[object Object] ATK"
+                          />ATK
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 31.4286%"></span></div>
+                        <div class="character-info-stat-value">564</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/def.png"
+                            alt="[object Object] DEF"
+                          />DEF
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 27.1605%"></span></div>
+                        <div class="character-info-stat-value">418</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon"
+                            src="https://rerollcdn.com/STARRAIL/Stats/spd.png"
+                            alt="[object Object] Speed"
+                          />Speed
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 68%"></span></div>
+                        <div class="character-info-stat-value">107</div>
+                      </div>
+                      <div class="character-info-stat">
+                        <div class="character-info-stat-name">
+                          <img
+                            class="character-info-stat-icon small"
+                            src="https://rerollcdn.com/STARRAIL/Stats/taunt.png"
+                            alt="[object Object] Taunt"
+                          />Taunt
+                        </div>
+                        <div class="character-info-stat-bar"><span style="width: 0%"></span></div>
+                        <div class="character-info-stat-value">75</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-materials">
+                    <h2 class="character-info-materials-title">Sushang Upgrade Materials</h2>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Module Machina.png"
+                      />
+                      <div class="character-info-materials-name">Module Machina</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Arrow of the Beast Hunter.png"
+                      />
+                      <div class="character-info-materials-name">Arrow of the Beast Hunter</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Broken Teeth of Iron Wolf.png"
+                      />
+                      <div class="character-info-materials-name">Broken Teeth of Iron Wolf</div>
+                    </div>
+                    <div class="character-info-materials-item">
+                      <img
+                        class="character-info-materials-icon"
+                        src="https://rerollcdn.com/STARRAIL/Farming/Guardian's Lament.png"
+                      />
+                      <div class="character-info-materials-name">Guardian's Lament</div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Sushang Best Relics</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/champion_of_streetwise_boxing.png"
+                              alt="Champion of Streetwise Boxing"
+                            />
+                            <div class="character-info-weapon-name">Champion of Streetwise Boxing</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon full">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/champion_of_streetwise_boxing.png"
+                              alt="Champion of Streetwise Boxing"
+                            />
+                            <div class="character-info-weapon-name">Champion of Streetwise Boxing</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                          <div class="character-info-weapon-content full">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/musketeer_of_wild_wheat.png"
+                              alt="Musketeer of Wild Wheat"
+                            />
+                            <div class="character-info-weapon-name">Musketeer of Wild Wheat</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">3</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/musketeer_of_wild_wheat.png"
+                              alt="Musketeer of Wild Wheat"
+                            />
+                            <div class="character-info-weapon-name">Musketeer of Wild Wheat</div>
+                            <div class="character-info-weapon-count">4</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Sushang Best Ornaments</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">1</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/firmament_frontline_glamoth.png"
+                              alt="Firmament Frontline: Glamoth"
+                            />
+                            <div class="character-info-weapon-name">Firmament Frontline: Glamoth</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-rank">2</div>
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-undefined"
+                              src="https://rerollcdn.com/STARRAIL/Relics/rutilant_arena.png"
+                              alt="Rutilant Arena"
+                            />
+                            <div class="character-info-weapon-name">Rutilant Arena</div>
+                            <div class="character-info-weapon-count">2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section third">
+                      <h2 class="character-info-build-section-title">Sushang Best Light Cone</h2>
+                      <div class="character-info-gear">
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/in_the_night_sm.png"
+                              alt="In the Night"
+                            />
+                            <div class="character-info-weapon-name">In the Night</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/sleep_like_the_dead_sm.png"
+                              alt="Sleep Like the Dead"
+                            />
+                            <div class="character-info-weapon-name">Sleep Like the Dead</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-5"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/cruising_in_the_stellar_sea_sm.png"
+                              alt="Cruising in the Stellar Sea"
+                            />
+                            <div class="character-info-weapon-name">Cruising in the Stellar Sea</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/swordplay_sm.png"
+                              alt="Swordplay"
+                            />
+                            <div class="character-info-weapon-name">Swordplay</div>
+                          </div>
+                        </div>
+                        <div class="character-info-weapon">
+                          <div class="character-info-weapon-content">
+                            <img
+                              class="character-info-weapon-icon rarity-4"
+                              src="https://rerollcdn.com/STARRAIL/LightCones/only_silence_remains_sm.png"
+                              alt="Only Silence Remains"
+                            />
+                            <div class="character-info-weapon-name">Only Silence Remains</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="character-info-build">
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Sushang Best Stats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item"><b>Body:</b> CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item"><b>Feet:</b> ATK% / Speed</div>
+                        <div class="character-info-stats-item"><b>Planar Sphere:</b> Physical DMG</div>
+                        <div class="character-info-stats-item"><b>Link Rope:</b> ATK% / Break Effect</div>
+                      </div>
+                    </div>
+                    <div class="character-info-build-section">
+                      <h2 class="character-info-build-section-title">Sushang Best Substats</h2>
+                      <div class="character-info-stats">
+                        <div class="character-info-stats-item">CRIT Rate / CRIT DMG</div>
+                        <div class="character-info-stats-item">ATK%</div>
+                        <div class="character-info-stats-item">Speed</div>
+                        <div class="character-info-stats-item">Effect Hit Rate</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb1"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu1"></div></div>
+                <div class="character-navigation">
+                  <a class="character-navigation-link">Skills</a><a class="character-navigation-link">Eidolons</a
+                  ><a class="character-navigation-link">Traces</a>
+                </div>
+                <div class="character-info-skills" id="skills">
+                  <h2 class="character-info-category">Sushang Skills</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Normal.png"
+                        alt="Cloudfencer Art: Starshine"
+                      />
+                      <h3 class="character-info-skill-title">Basic ATK</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Cloudfencer Art: Starshine</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Physical DMG equal to 50% of Sushang's ATK to a single enemy.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_BP.png"
+                        alt="Cloudfencer Art: Mountainfall"
+                      />
+                      <h3 class="character-info-skill-title">Skill</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Cloudfencer Art: Mountainfall</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Physical DMG equal to 105% of Sushang's ATK to a single enemy. In addition, there is a 33%
+                        chance to trigger Sword Stance on the final hit, dealing additional Physical DMG equal to 50% of
+                        Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed
+                        to trigger.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Ultra_on.png"
+                        alt="Shape of Taixu: Dawn Herald"
+                      />
+                      <h3 class="character-info-skill-title">Ultimate</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Shape of Taixu: Dawn Herald</h4>
+                      <h5 class="character-info-skill-type">Single Target</h5>
+                      <p class="character-info-skill-description">
+                        Deals Physical DMG equal to 192% of Sushang's ATK to a single enemy and immediately Advances Forward
+                        her actions by 100%. In addition, Sushang's ATK increases by 18% and using her Skill has 2 additional
+                        chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals
+                        50% of the original DMG.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Passive.png"
+                        alt="Dancing Blade"
+                      />
+                      <h3 class="character-info-skill-title">Talent</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Dancing Blade</h4>
+                      <h5 class="character-info-skill-type">Support</h5>
+                      <p class="character-info-skill-description">
+                        When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15.00% for 2
+                        turn(s).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Maze.png"
+                        alt="Cloudfencer Art: Warcry"
+                      />
+                      <h3 class="character-info-skill-title">Technique</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Cloudfencer Art: Warcry</h4>
+                      <h5 class="character-info-skill-type"></h5>
+                      <p class="character-info-skill-description">
+                        Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her
+                        ATK to all enemies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-lb1"><div id="nn_lb2"></div></div>
+                <div class="wrapper-mpu1"><div id="nn_mobile_mpu2"></div></div>
+                <div class="character-info-skills" id="eidolons">
+                  <h2 class="character-info-category">Sushang Eidolon</h2>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank1.png"
+                        alt="Cut With Ease"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 1</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Cut With Ease</h4>
+                      <p class="character-info-skill-description">
+                        After using the Skill against a Weakness Broken enemy, regenerates 1 Skill Point
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank2.png"
+                        alt="Refine in Toil"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Refine in Toil</h4>
+                      <p class="character-info-skill-description">
+                        After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Ultra.png"
+                        alt="Rise From Fame"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 3</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Rise From Fame</h4>
+                      <p class="character-info-skill-description">
+                        Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank4.png"
+                        alt="Cleave With Heart"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Cleave With Heart</h4>
+                      <p class="character-info-skill-description">Sushang's Break Effect increases by 40%.</p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_BP.png"
+                        alt="Prevail via Taixu"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 5</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Prevail via Taixu</h4>
+                      <p class="character-info-skill-description">
+                        Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank6.png"
+                        alt="Guileless"
+                      />
+                      <h3 class="character-info-skill-title">Eidolon 6</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Guileless</h4>
+                      <p class="character-info-skill-description">
+                        When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies..
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="character-info-skills" id="traces">
+                  <h2 class="character-info-category">Sushang Traces</h2>
+                  <div class="character-info-traces">
+                    <div class="character-info-traces-title">Total Stats</div>
+                    <div class="character-info-trace">ATK +28%</div>
+                    <div class="character-info-trace">Max HP +18%</div>
+                    <div class="character-info-trace">DEF +12.5%</div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank1.png"
+                        alt="Vanquisher"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 2</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Vanquisher</h4>
+                      <p class="character-info-skill-description">
+                        After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's
+                        action is Advanced Forward by 15%.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="character-info-skill">
+                    <div class="character-info-skill-header">
+                      <img
+                        class="character-info-skill-icon"
+                        src="https://rerollcdn.com/STARRAIL/Skill/SkillIcon_1206_Rank2.png"
+                        alt="Riposte"
+                      />
+                      <h3 class="character-info-skill-title">Ascension 4</h3>
+                    </div>
+                    <div class="character-info-skill-body">
+                      <h4 class="character-info-skill-name">Riposte</h4>
+                      <p class="character-info-skill-description">
+                        For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2%. Stacks up to 10
+                        time(s).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="footer-meta">
+                  <a href="/"
+                    ><img class="footer-logo" src="https://rerollcdn.com/GENSHIN/UI/brand-icon.svg" alt="brand"
+                  /></a>
+                  <p class="footer-description">
+                    <b>GENSHIN.GG</b> is not affiliated with or endorsed by miHoYo. <b>GENSHIN.GG</b> is a Database and Tier
+                    List website for Genshin Impact and Honkai: Star Rail.
+                  </p>
+                  <p class="footer-copyright">© GENSHIN.GG 2023</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">More Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a class="footer-link" href="mailto:hello.genshin@gmail.com" target="_blank">Contact</a>
+                  </li>
+                  <li class="footer-link-item"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+                  <li class="footer-link-item"><a class="footer-link nn-cmp-show" href="#">Manage Cookies</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 offset-md-1">
+                <h2 class="footer-link-title">Community Links</h2>
+                <ul class="footer-link-list">
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://discord.com/invite/honkaistarrail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Discord</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.reddit.com/r/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Reddit</a
+                    >
+                  </li>
+                  <li class="footer-link-item">
+                    <a
+                      class="footer-link"
+                      href="https://www.facebook.com/HonkaiStarRail/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="nn_player"></div>
+      </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (var n, i, l = r[0], a = r[1], f = r[2], p = 0, s = []; p < l.length; p++)
+            (i = l[p]), Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), (o[i] = 0);
+          for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
+          for (c && c(r); s.length; ) s.shift()();
+          return u.push.apply(u, f || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var a = t[l];
+              0 !== o[a] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && 'object' == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if ((i.r(t), Object.defineProperty(t, 'default', { enumerable: !0, value: e }), 2 & r && 'string' != typeof e))
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n),
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, 'a', r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = '/');
+        var l = (this['webpackJsonpgenshin-react'] = this['webpackJsonpgenshin-react'] || []),
+          a = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var f = 0; f < l.length; f++) r(l[f]);
+        var c = a;
+        t();
+      })([]);
+    </script>
+    <script src="/static/js/2.ab48461c.chunk.js"></script>
+    <script src="/static/js/main.a6259602.chunk.js"></script>
+  </body>
+</html>
