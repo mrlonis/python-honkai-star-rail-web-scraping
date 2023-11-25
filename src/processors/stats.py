@@ -64,7 +64,9 @@ def _link_rope_stats(raw_stats: str | None, character_data: CharacterData):
     split_data = raw_stats.split("/")
     i = 0
     while i < len(split_data):
-        stat = split_data[i].strip()
+        stat: str | None = split_data[i].strip()
+        if stat == "Speed":
+            stat = None
         if i == 0:
             character_data.link_rope_main_stat_one = stat
         elif i == 1:
@@ -81,6 +83,8 @@ def _substats(substats_raw: list[str], character_data: CharacterData):
     i = 0
     while i < len(substats_raw):
         stat = substats_raw[i].strip()
+        if stat == "Effect RES":
+            stat = "Effect Res"
         if i == 0:
             character_data.substat_one = stat
         elif i == 1:

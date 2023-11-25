@@ -85,6 +85,8 @@ def _process_ornaments(ornaments: list[str], character_data: CharacterData):
     i = 0
     while i < len(ornaments):
         ornament = ornaments[i]
+        if ornament == "Pan-Galactic Commercial Enterprise":
+            ornament = "Pan-Cosmic Commercial Enterprise"
         if i == 0:
             character_data.ornament_set_one_id = ornament
         elif i == 1:
@@ -101,6 +103,8 @@ def _process_light_cones(light_cones: list[str], character_data: CharacterData):
     i = 0
     while i < len(light_cones):
         light_cone = light_cones[i]
+        if light_cone == "The Battle Isn't Over":
+            light_cone = "But the Battle Isn't Over"
         if i == 0:
             character_data.light_cone_one_id = light_cone
         elif i == 1:
