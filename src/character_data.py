@@ -24,13 +24,13 @@ class CharacterData(BaseModel):
     combat_path_id: str = ""
     combat_type_id: str = ""
 
-    bodyMainStatOne: str | None = None
-    bodyMainStatTwo: str | None = None
-    feetMainStatOne: str | None = None
-    feetMainStatTwo: str | None = None
-    planarSphereMainStat: str | None = None
-    linkRopeMainStatOne: str | None = None
-    linkRopeMainStatTwo: str | None = None
+    body_main_stat_one: str | None = None
+    body_main_stat_two: str | None = None
+    feet_main_stat_one: str | None = None
+    feet_main_stat_two: str | None = None
+    planar_sphere_main_stat: str | None = None
+    link_rope_main_stat_one: str | None = None
+    link_rope_main_stat_two: str | None = None
     substat_one: str | None = None
     substat_two: str | None = None
     substat_three: str | None = None
@@ -43,6 +43,7 @@ class CharacterData(BaseModel):
     relic_set_three_id_second: str | None = None
     ornament_set_one_id: str | None = None
     ornament_set_two_id: str | None = None
+    ornament_set_three_id: str | None = None
     light_cone_one_id: str | None = None
     light_cone_two_id: str | None = None
     light_cone_three_id: str | None = None
@@ -57,13 +58,13 @@ class CharacterData(BaseModel):
             + f"{_convert_field_to_csv(self.rarity)},"
             + f"{_convert_field_to_csv(self.combat_path_id)},"
             + f"{_convert_field_to_csv(self.combat_type_id)},"
-            + f"{_convert_field_to_csv(self.bodyMainStatOne)},"
-            + f"{_convert_field_to_csv(self.bodyMainStatTwo)},"
-            + f"{_convert_field_to_csv(self.feetMainStatOne)},"
-            + f"{_convert_field_to_csv(self.feetMainStatTwo)},"
-            + f"{_convert_field_to_csv(self.planarSphereMainStat)},"
-            + f"{_convert_field_to_csv(self.linkRopeMainStatOne)},"
-            + f"{_convert_field_to_csv(self.linkRopeMainStatTwo)},"
+            + f"{_convert_field_to_csv(self.body_main_stat_one)},"
+            + f"{_convert_field_to_csv(self.body_main_stat_two)},"
+            + f"{_convert_field_to_csv(self.feet_main_stat_one)},"
+            + f"{_convert_field_to_csv(self.feet_main_stat_two)},"
+            + f"{_convert_field_to_csv(self.planar_sphere_main_stat)},"
+            + f"{_convert_field_to_csv(self.link_rope_main_stat_one)},"
+            + f"{_convert_field_to_csv(self.link_rope_main_stat_two)},"
             + f"{_convert_field_to_csv(self.substat_one)},"
             + f"{_convert_field_to_csv(self.substat_two)},"
             + f"{_convert_field_to_csv(self.substat_three)},"
@@ -76,6 +77,7 @@ class CharacterData(BaseModel):
             + f"{_convert_field_to_csv(self.relic_set_three_id_second)},"
             + f"{_convert_field_to_csv(self.ornament_set_one_id)},"
             + f"{_convert_field_to_csv(self.ornament_set_two_id)},"
+            + f"{_convert_field_to_csv(self.ornament_set_three_id)},"
             + f"{_convert_field_to_csv(self.light_cone_one_id)},"
             + f"{_convert_field_to_csv(self.light_cone_two_id)},"
             + f"{_convert_field_to_csv(self.light_cone_three_id)},"

@@ -7,7 +7,7 @@ from rich import print as pretty_print
 
 from .character_data import CharacterData
 from .character_input import CharacterInput, characters_list
-from .processors import get_combat_path, get_combat_type, get_rarity
+from .processors import get_combat_path, get_combat_type, get_rarity, get_relics_ornaments_and_light_cones, get_stats
 
 
 def build_characters_csv(make_server_call: bool = False):
@@ -15,7 +15,7 @@ def build_characters_csv(make_server_call: bool = False):
     with open("output/characters.csv", "w", encoding="utf-8") as csv_file:
         # pylint: disable=line-too-long
         csv_file.write(
-            "name,imageUrl,rarity,combatPathId,combatTypeId,bodyMainStatOne,bodyMainStatTwo,feetMainStatOne,feetMainStatTwo,planarSphereMainStat,linkRopeMainStatOne,linkRopeMainStatTwo,substatOne,substatTwo,substatThree,substatFour,relicSetOneIdFirst,relicSetOneIdSecond,relicSetTwoIdFirst,relicSetTwoIdSecond,relicSetThreeIdFirst,relicSetThreeIdSecond,ornamentSetOneId,ornamentSetTwoId,lightConeOneId,lightConeTwoId,lightConeThreeId,lightConeFourId,lightConeFiveId\n"  # noqa: E501
+            "name,imageUrl,rarity,combatPathId,combatTypeId,bodyMainStatOne,bodyMainStatTwo,feetMainStatOne,feetMainStatTwo,planarSphereMainStat,linkRopeMainStatOne,linkRopeMainStatTwo,substatOne,substatTwo,substatThree,substatFour,relicSetOneIdFirst,relicSetOneIdSecond,relicSetTwoIdFirst,relicSetTwoIdSecond,relicSetThreeIdFirst,relicSetThreeIdSecond,ornamentSetOneId,ornamentSetTwoId,ornamentSetThreeId,lightConeOneId,lightConeTwoId,lightConeThreeId,lightConeFourId,lightConeFiveId\n"  # noqa: E501
         )
         for character_input in characters_list:
             if not character_input.skip:
@@ -57,9 +57,12 @@ def scrape_web(character_input: CharacterInput, make_server_call=False):
     soup = BeautifulSoup(html, "html.parser")
     character_data: CharacterData = CharacterData(name=character_input.name)
 
+    print(f"Processing {character_input.name}...")
     get_rarity(soup, character_data)
     get_combat_path(soup, character_data)
     get_combat_type(soup, character_data)
+    get_stats(soup, character_data)
+    get_relics_ornaments_and_light_cones(soup, character_data)
 
     pretty_print(character_data)
     return character_data
