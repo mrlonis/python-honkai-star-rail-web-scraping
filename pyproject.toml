@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "python-honkai-star-rail-web-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Lonis <mattlonis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = { version = "^1.10.5", extras = ["dotenv"] }
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.group.test.dependencies]
+bandit = { version = "^1.7.4", extras = ["toml"] }
+flake8 = "^6.0.0"
+greenlet = "^2.0.2"
+mypy = "^1.0.1"
+pycodestyle = "^2.10.0"
+pydocstyle = "^6.3.0"
+pylama = { version = "^8.4.1", extras = ["all"] }
+pylint = "^2.16.3"
+pylint-junit = "^0.3.2"
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+pytest-xdist = { version = "^3.2.0", extras = ["psutil"] }
+tomli = "^2.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+configupdater = "^3.1.1"
+isort = "^5.12.0"
+pip-tools = "^6.12.2"
+pre-commit = "^3.0.4"
+ruamel-yaml = "^0.17.21"
+tomlkit = "^0.11.6"
+tox = "^4.4.6"
+types-beautifulsoup4 = "^4.12.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 125
+
+[tool.isort]
+line_length = 125
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "--ignore=./utility-repo-scripts"
+log_cli = false
+log_cli_level = "WARNING"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.pydocstyle]
+inherit = false
+match = ".*.py"
+
+[tool.bandit]
+exclude_dirs = ["utility-repo-scripts"]
+assert_used = { skips = ['*_test.py', '*test_*.py'] }
