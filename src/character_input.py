@@ -8,6 +8,7 @@ class CharacterInput(BaseModel):
     name: str
     url_name: str | None = None
     skip: bool = False
+    image_url: str | None = None
 
 
 characters_list: list[CharacterInput] = [
@@ -42,7 +43,7 @@ characters_list: list[CharacterInput] = [
     CharacterInput(name="Fu Xuan", url_name="fuxuan"),
     CharacterInput(name="Yanqing"),
     CharacterInput(name="Guinaifen"),
-    CharacterInput(name="Bailu"),
+    CharacterInput(name="Bailu", image_url="images/characters/bailu.webp"),
     CharacterInput(name="Jingliu"),
     CharacterInput(name="Dan Heng - Imbibitor Lunae", url_name="danheng-imbibitorlunae"),
     CharacterInput(name="Xueyi", skip=True),

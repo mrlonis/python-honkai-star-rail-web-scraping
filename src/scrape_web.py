@@ -56,6 +56,8 @@ def scrape_web(character_input: CharacterInput, make_server_call=False):
 
     soup = BeautifulSoup(html, "html.parser")
     character_data: CharacterData = CharacterData(name=character_input.name)
+    if character_input.image_url:
+        character_data.image_url = character_input.image_url
 
     print(f"Processing {character_input.name}...")
     get_rarity(soup, character_data)
