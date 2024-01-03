@@ -67,6 +67,8 @@ def _link_rope_stats(raw_stats: str | None, character_data: CharacterData):
         stat: str | None = split_data[i].strip()
         if stat == "Speed":
             stat = None
+        if stat == "Energy Recharge Rate":
+            stat = "Energy Regen Rate"
         if i == 0:
             character_data.link_rope_main_stat_one = stat
         elif i == 1:
