@@ -51,13 +51,16 @@ def _process_relics(relics: list[list[str]], character_data: CharacterData):
     while i < len(relics):
         relic_set = relics[i]
         if i == 0:
+            if len(relic_set) == 0:
+                i += 1
+                continue
             if len(relic_set) == 1:
                 character_data.relic_set_one_id_first = relic_set[0]
             elif len(relic_set) == 2:
                 character_data.relic_set_one_id_first = relic_set[0]
                 character_data.relic_set_one_id_second = relic_set[1]
             else:
-                raise ValueError("Relic set has more than two listed")
+                raise ValueError("Relic set 1 has more than two listed")
         elif i == 1:
             if len(relic_set) == 0:
                 i += 1
@@ -68,15 +71,18 @@ def _process_relics(relics: list[list[str]], character_data: CharacterData):
                 character_data.relic_set_two_id_first = relic_set[0]
                 character_data.relic_set_two_id_second = relic_set[1]
             else:
-                raise ValueError("Relic set has more than two listed")
+                raise ValueError("Relic set 2 has more than two listed")
         elif i == 2:
+            if len(relic_set) == 0:
+                i += 1
+                continue
             if len(relic_set) == 1:
                 character_data.relic_set_three_id_first = relic_set[0]
             elif len(relic_set) == 2:
                 character_data.relic_set_three_id_first = relic_set[0]
                 character_data.relic_set_three_id_second = relic_set[1]
             else:
-                raise ValueError("Relic set has more than two listed")
+                raise ValueError("Relic set 3 has more than two listed")
         i += 1
 
 

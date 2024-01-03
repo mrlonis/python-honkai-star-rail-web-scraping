@@ -48,11 +48,15 @@ characters_list: list[CharacterInput] = [
     CharacterInput(
         name="Dan Heng - Imbibitor Lunae", url_name="danheng-imbibitorlunae", image_url="dan-heng-imbibitor-lunae"
     ),
-    CharacterInput(name="Xueyi", skip=True),
-    CharacterInput(name="Hanya", skip=True),
+    CharacterInput(name="Xueyi"),
+    CharacterInput(name="Hanya"),
     CharacterInput(name="Huohuo"),
-    CharacterInput(name="Argenti", skip=True),
-    CharacterInput(name="Dr. Ratio", skip=True),
+    CharacterInput(name="Argenti"),
+    CharacterInput(name="Ruan Mei", url_name="ruanmei"),
+    CharacterInput(name="Dr. Ratio", url_name="dr.ratio", skip=True),
+    CharacterInput(name="Sparkle", skip=True),
+    CharacterInput(name="Black Swan", skip=True),
+    CharacterInput(name="Misha", skip=True),
     CharacterInput(name="Trailblazer (Physical)", url_name="trailblazer(physical)", image_url="trailblazer-male-physical"),
     CharacterInput(name="Trailblazer (Fire)", url_name="trailblazer(fire)", image_url="trailblazer-male-fire"),
 ]
