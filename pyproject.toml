@@ -13,7 +13,7 @@ rich = "^13.7.0"
 pydantic = { version = "^2.8.2", extras = ["dotenv"] }
 
 [tool.poetry.group.test.dependencies]
-flake8 = "^7.0.0"
+flake8 = "^7.1.1"
 greenlet = "^3.0.3"
 mypy = "^1.11.1"
 pylint = "^3.2.6"
