@@ -9,7 +9,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.10"
 beautifulsoup4 = "^4.12.2"
-rich = "^13.8.0"
+rich = "^13.8.1"
 pydantic = { version = "^2.9.1", extras = ["dotenv"] }
 
 [tool.poetry.group.test.dependencies]
