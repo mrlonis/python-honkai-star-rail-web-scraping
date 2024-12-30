@@ -15,7 +15,7 @@ pydantic = { version = "^2.10.4", extras = ["dotenv"] }
 [tool.poetry.group.test.dependencies]
 flake8 = "^7.1.1"
 greenlet = "^3.1.1"
-mypy = "^1.13.0"
+mypy = "^1.14.1"
 pylint = "^3.3.2"
 pylint-junit = "^0.3.2"
 pytest = "^8.3.4"
@@ -28,7 +28,7 @@ black = "^24.10.0"
 configupdater = "^3.1.1"
 isort = "^5.12.0"
 pre-commit = "^4.0.1"
-ruamel-yaml = "^0.18.6"
+ruamel-yaml = "^0.18.7"
 tomlkit = "^0.13.2"
 types-beautifulsoup4 = "^4.12.0.20241020"
 
