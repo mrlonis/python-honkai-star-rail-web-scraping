@@ -10,7 +10,7 @@ package-mode = false
 python = "^3.13.1"
 beautifulsoup4 = "^4.13.4"
 rich = "^14.0.0"
-pydantic = { version = "^2.11.4", extras = ["dotenv"] }
+pydantic = { version = "^2.11.5", extras = ["dotenv"] }
 
 [tool.poetry.group.test.dependencies]
 flake8 = "^7.2.0"
